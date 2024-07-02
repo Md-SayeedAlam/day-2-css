@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selectors</title>
+    <style>
+        /* *{margin: 0;} */
+       p, .count{font-weight: bold;}
+        #first
+        {font-style: italic;font-weight: bolder;}
+        .third{color: yellow;background-color: blue;}
+        .fourth{font-size: larger;color: aqua;font-weight: 800;}
+        input[type=password]{color: red;font-size: larger;}
+        .newcss{color: blueviolet;}
+    </style>
+</head>
+<body>
+    <h3>explore mixed selectors</h3>
+    <p id="first">my <span class="newcss">first css</span></p>
+    <p>my second css</p>
+    <p class="third count">my third css</p>
+    <p class="fourth">my fourth css</p>
+    <p>my fifth css</p>
+    <p>my sixth css</p>
+    <form action="">
+        <input type="text"><br>
+        <input type="password">
+    </form>
+</body>
+</html>
